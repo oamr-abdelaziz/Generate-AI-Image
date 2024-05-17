@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 const GenerationSuccess = () => {
   return (
-    <View>
-      <Text>generation-success</Text>
-    </View>
+    <SafeAreaView>
+      <Text style={{color:'white'}}>generation-success</Text>
+    </SafeAreaView>
   )
 }
 
